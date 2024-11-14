@@ -1,10 +1,6 @@
 import { Pruu } from './pruu';
 import { Denuncia } from './denuncia';
-
-export enum Role {
-  USER = 'USER',
-  ADMIN = 'ADMIN'
-}
+import { Role } from './enums/role'
 
 export interface Usuario {
   id: number;
