@@ -1,11 +1,10 @@
-export interface PruuDTO {
-  pruuId: string;
-  pruuConteudo: string;
-  pruuImagem?: string;
-  usuarioId: number;
-  usuarioNome: string;
-  usuarioFotoPerfil?: string;
-  quantidadeLikes: number;
-  quantidadeDenuncias: number;
-  criadoEm: Date;
+export interface UsuarioDTO {
+  senha: string;
+  login: string;
+  id: number;
+  nome: string;
+  email: string;
+  cpf: string;
+  foto?: string;
+  role: 'USER' | 'ADMIN';
 }
