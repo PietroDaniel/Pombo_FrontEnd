@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ImagemListagemComponent } from './imagem-listagem/imagem-listagem.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: "", component: ImagemListagemComponent}
+];
 
 @NgModule({
   declarations: [

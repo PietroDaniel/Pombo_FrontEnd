@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DenunciaListagemComponent } from './denuncia-listagem/denuncia-listagem.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: "", component: DenunciaListagemComponent}
+];
 
 @NgModule({
   declarations: [
